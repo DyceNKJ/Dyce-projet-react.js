@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* TEXTE : glisse depuis la gauche */
+.from-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1.2s ease-out;
+}
+
+.from-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1.2s ease-out;
+}
+
+/* Effet apparition depuis le bas */
+.from-down {
+  opacity: 0;                 /* invisible au départ */
+  transform: translateY(50px); /* descend de 50px */
+  transition: all 1.2s ease-out; /* transition fluide */
+}
+
+/* Quand l’élément devient visible */
+.from-down.visible {
+  opacity: 1;
+  transform: translateY(0);   /* revient à sa position normale */
+}
+
+
+/* IMAGE : effet zoom */
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 1.2s ease-out;
+}
+
+/* Classe activée quand visible */
+.visible {
+  opacity: 1;
+  transform: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.icon-hover:hover {
+  transform: translateY(-0.5rem);
+}
+
+.x {
+  transition: transform 0.3s ease;
+}
+
+.x:hover {
+  transform: translateX(-0.9rem);
+}
+
+.xx {
+  transition: transform 0.3s ease;
+}
+
+.xx:hover {
+  transform: translateX(0.9rem);
+}
+
+.accent {
+  background: linear-gradient(90deg, #2543ca, #0f46be);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 25px;
+}
+
+.accent:hover {
+  background: linear-gradient(90deg, #07279b, #06238b);
+  color: #000000;
+  padding: 4px 10px;
+  border-radius: 25px;
+}
+
+.font {
+  font-family: "Rockwell Extra Bold", cursive;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+}
+
+.font:hover {
+  font-family: "Rockwell Extra Bold", cursive;
+  color: #0c47c7;
+  font-size: 35px;
+  white-space: nowrap;
+}
+
+.fonte {
+  font-family: "Rockwell Extra Bold", cursive;
+  color: #ffffff;
+  white-space: nowrap;
+}
