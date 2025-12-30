@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Joy UI
 import Box from "@mui/joy/Box";

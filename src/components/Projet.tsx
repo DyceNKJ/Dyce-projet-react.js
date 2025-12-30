@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import site from '../assets/site.png'
 import CABICON from '../assets/CABICON.png'
@@ -101,11 +100,11 @@ Services : Formations, Communication, Études & Conseil, Conseil en Affaires, Cr
                         <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-20 h-7 rounded-lg">Material UI</p>
                     </div>
                         <div className="flex space-x-2 mt-5">
-                            <button type='button' className='bg-sky-700 hover:bg-sky-800 p-3 mt-3 w-51 rounded-xl cursor-pointer'>
+                            <button type='button' className='bg-sky-700 hover:bg-sky-800 p-3 mt-3 w-51 rounded-xl cursor-pointer hidden'>
                             <a href="" className="">Demo <i className="fa-regular fa-circle-play"></i></a>
                         </button>
-                        <button type='button' className='bg-sky-600 hover:bg-sky-400 p-3 mt-3 w-30 rounded-xl cursor-pointer'>
-                            <a href="https://github.com/DyceNKJ" className=""><i className="fab fa-github text-white"></i></a>
+                        <button type='button' className='bg-sky-600 hover:bg-sky-400 p-3 mt-3 w-full rounded-xl cursor-pointer'>
+                            <a href="https://github.com/DyceNKJ/Dyce-projet-react.js" className=""><i className="fab fa-github text-white"></i></a>
                         </button>
                         </div>
                 </div>
