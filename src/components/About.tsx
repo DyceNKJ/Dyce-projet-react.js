@@ -27,7 +27,7 @@ const About = () => {
 
         <div className="flex flex-col md:flex-row items-start space-x-5 gap-y-9">
         <div className="from-left md:mr-4 mx-auto md:mx-6 flex-shrink-0">
-            <img src={moii} alt="" className="w-80 h-106 object-cover rounded-2xl" />
+            <img src={moii} alt="" className="w-80 h-106 object-cover rounded-2xl hover:scale-105 hover:shadow-[0_0_4px_4px_rgba(19,145,230,0.3)] transition-all duration-700 opacity-65" />
         </div>
 
         <div className="from-down flex-col space-y-5 lg:mt-10 md:mt-0">

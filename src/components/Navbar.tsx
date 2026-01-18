@@ -65,14 +65,14 @@ export default function Navbar() {
           variant="outlined"
           onClick={() => setOpen(true)}
           sx={{
-            position: "absolute",
-            top: 24,      // décalage depuis le haut
-            right: 20,
-            color: "white",
-            borderColor: "white",
-            "&:hover": {
-              backgroundColor: "rgba(55,55,255,0.08)",
-              borderColor: "white",
+          position: "absolute",
+          top: 24,      // décalage depuis le haut
+          right: 20,
+          color: "white",
+          borderColor: "white",
+          "&:hover": {
+          backgroundColor: "rgba(55,55,255,0.08)",
+          borderColor: "white",
             },
           }}
         >
@@ -83,14 +83,14 @@ export default function Navbar() {
           open={open}
           onClose={() => setOpen(false)}
           sx={{
-            zIndex: 2000,
-            "& .MuiDrawer-content": {
-              width: 300,          // largeur fixe
-              maxWidth: "90%",
-              backgroundColor: "#020617", // équivalent tailwind gray-950
-              color: "blue",
-                },
-              }}
+          zIndex: 2000,
+          "& .MuiDrawer-content": {
+          width: 300,          // largeur fixe
+          maxWidth: "90%",
+          backgroundColor: "#020617", // équivalent tailwind gray-950
+          color: "blue",
+            },
+          }}
             >
 
             <Box
@@ -111,8 +111,8 @@ export default function Navbar() {
             <List
               size="lg"
               sx={{
-                mt: 4,
-                fontSize: "lg",
+              mt: 4,
+              fontSize: "lg",
               }}
             >
               {sections.map((item) => (
