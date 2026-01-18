@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { styled } from '@mui/material/styles';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+import type { TooltipProps } from '@mui/material/Tooltip';
 import {blue} from '@mui/material/colors';
 import html from '../assets/techno/html.png'
 import css from '../assets/techno/css.png'
@@ -30,7 +31,7 @@ import microsoft from '../assets/techno/microsoft.webp'
 
             const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
             <Tooltip {...props} arrow classes={{ popper: className }} />
-            ))(({ theme }) => ({
+            ))(() => ({
             [`& .${tooltipClasses.arrow}`]: {
                 color: blue[700],
             },
