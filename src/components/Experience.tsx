@@ -64,7 +64,7 @@ import microsoft from '../assets/techno/microsoft.webp'
 
                 {/* skills */}
 
-                <div className="max-w-4xl mx-auto flex flex-col-reverse items-center justify-center space-y-10 space-y-reverse lg:flex-row lg:space-y-0 lg:space-x-6">
+                <div className="max-w-4xl mx-auto flex flex-col-reverse items-center justify-center space-y-10 space-y-reverse lg:flex-row lg:space-y-0 lg:space-x-6 mb-10">
 
                 {/* Stack skills */}
                 <div className="flex flex-col">
@@ -219,7 +219,7 @@ import microsoft from '../assets/techno/microsoft.webp'
 
                     <h1 className="text-white text-center font-bold text-3xl mb-4">Expériences</h1>
 
-                <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out x'>
+                <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:scale-105'>
                     <img src={NEKO} alt="" className='w-8 h-8'/>
                     <div>
                         <h5 className='leading-none'>Freelance - Designer Graphique Indépendant<br /> <span className='text-xs'>NEKOMONJI</span></h5>
@@ -231,7 +231,7 @@ import microsoft from '../assets/techno/microsoft.webp'
                     </div>
                 </div>
                 
-                    <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out xx'>
+                    <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:scale-96'>
                     <img src={GBA} alt="" className='w-10 h-11 rounded-md'/>
                     <div>
                         <h5 className='leading-none'>Employé - Opérateur de Saisie & Infographe <br /> <span className='text-xs'>GROUPE BEN'K AUBINSSON</span></h5>
@@ -243,7 +243,7 @@ import microsoft from '../assets/techno/microsoft.webp'
                     </div>
                 </div>
 
-                <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out x'>
+                <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:scale-105'>
                     <img src={GBAN} alt="" className='w-10 h-11 rounded-md'/>
                     <div>
                         <h5 className='leading-none'>Stagiaire - Opérateur de Saisie<br /> <span className='text-xs'>GROUPE BEN'K AUBINSSON</span></h5>

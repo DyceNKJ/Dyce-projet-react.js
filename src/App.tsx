@@ -6,6 +6,8 @@ import Experience from "./components/Experience";
 import Projet from "./components/Projet";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollNavigator from "./components/ScrollNavigator";
+import Top from "./components/Top";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
       <Projet />
       <Contact />
       <Footer />
+      <ScrollNavigator />
+      <Top />
     </div>
   )
 }

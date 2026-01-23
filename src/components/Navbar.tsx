@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 
 // Joy UI
 import Box from "@mui/joy/Box";
@@ -16,6 +16,7 @@ const sections = ["accueil", "profil", "experiences", "projets", "contact"];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("accueil");
 
   const scrollToSection = (id: string) => {
     if (typeof window === "undefined") return;
@@ -33,6 +34,33 @@ export default function Navbar() {
     setOpen(false);
   };
 
+  useEffect(() => {
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY + 100; // marge pour détecter la section
+
+    let currentSection = "accueil"; // par défaut
+
+    sections.forEach((section) => {
+      const element = document.getElementById(section);
+      if (element) {
+        const top = element.offsetTop;
+        const height = element.offsetHeight;
+
+        if (scrollPosition >= top && scrollPosition < top + height) {
+          currentSection = section;
+        }
+      }
+    });
+
+    setActiveSection(currentSection);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  handleScroll(); // vérifie au montage
+
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-800/90 backdrop-blur-md z-50 shadow-lg overflow-x-hidden">
       <div className="max-w-7xl mx-auto h-20 flex items-center justify-between px-6">
@@ -47,17 +75,21 @@ export default function Navbar() {
 
         {/* MENU DESKTOP */}
         <ul className="hidden md:flex gap-4">
-          {sections.map((item) => (
-            <li key={item}>
-              <button
-                onClick={() => scrollToSection(item)}
-                className="text-white px-3 py-2 rounded-lg hover:text-sky-500 hover:bg-gray-900 transition cursor-pointer"
-              >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-              </button>
-            </li>
-          ))}
-        </ul>
+        {sections.map((item) => (
+          <li key={item}>
+            <button
+              onClick={() => scrollToSection(item)}
+              className={`px-3 py-2 rounded-lg transition cursor-pointer ${
+                activeSection === item
+                  ? "text-sky-500 font-bold bg-gray-950"
+                  : "text-white hover:text-sky-500 hover:bg-gray-950"
+              }`}
+            >
+              {item.charAt(0).toUpperCase() + item.slice(1)}
+            </button>
+          </li>
+        ))}
+      </ul>
 
         {/* MENU MOBILE (JOY UI DRAWER) */}
         <div className="md:hidden">

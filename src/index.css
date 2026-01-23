@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
 
 /* TEXTE : glisse depuis la gauche */
 .from-left {
@@ -25,7 +29,6 @@
   opacity: 1;
   transform: translateY(0);   /* revient à sa position normale */
 }
-
 
 /* IMAGE : effet zoom */
 .zoom-in {
@@ -63,27 +66,12 @@ html {
   transform: translateY(-0.5rem);
 }
 
-.x {
-  transition: transform 0.3s ease;
-}
-
-.x:hover {
-  transform: translateX(-0.9rem);
-}
-
-.xx {
-  transition: transform 0.3s ease;
-}
-
-.xx:hover {
-  transform: translateX(0.9rem);
-}
-
 .accent {
   background: linear-gradient(90deg, #2543ca, #0f46be);
   color: #fff;
   padding: 4px 10px;
   border-radius: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .accent:hover {
@@ -94,21 +82,13 @@ html {
 }
 
 .font {
-  font-family: "Rockwell Extra Bold", cursive;
+  font-family: 'Times New Roman', Times, serif;
   color: #ffffff;
   font-size: 35px;
   white-space: nowrap;
 }
 
 .font:hover {
-  font-family: "Rockwell Extra Bold", cursive;
   color: #0c47c7;
   font-size: 35px;
-  white-space: nowrap;
-}
-
-.fonte {
-  font-family: "Rockwell Extra Bold", cursive;
-  color: #ffffff;
-  white-space: nowrap;
 }

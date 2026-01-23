@@ -22,21 +22,18 @@ const Footer = () => {
                   }, [])
 
   return (
-  <div className=" text-center py-3 mt-9 overflow-x-hidden">
+  <div className="bg-gray-900 text-center py-16  overflow-x-hidden">
 
     {/* LOGO */}
-    <a
-          href="#accueil"
-          className="flex flex-col items-center gap-2 mb-5 zoom-in"
-        >
-          <p className="text-sm font-bold text-white break-words">
-            <span className="fonte">Claudy</span><span className="text-sky-700 accent">Corne</span>
+    <a href="#accueil" className="flex flex-col items-center gap-2 mb-5 zoom-in">
+          <p className="text-sm font-bold text-white ">
+            <span className="font">Claudy</span><span className="text-sky-700 accent text-2xl">Corne</span>
           </p>
         </a>
 
     {/* COPYRIGHT */}
     <p className="from-left text-white text-md leading-relaxed mb-5 px-2 break-words">
-      © 2026 Claudyce <span className="text-sky-700 font-bold">Corneille</span>. Tous droits réservés.
+      ©{new Date().getFullYear()} Claudyce <span className="text-sky-700 font-bold">Corneille</span>. Tous droits réservés.
     </p>
 
     {/* RÉSEAUX */}

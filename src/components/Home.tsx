@@ -27,13 +27,13 @@ const Home = () => {
 
         {/* TEXTE */}
         <div className="from-left flex flex-col">
-          <h1 className="font-bold text-white text-center md:text-3xl md:text-left text-xl my-5">
-            Je m'appelle<br /><span className="text-sky-700">Claudyce Corneille</span>
+          <h1 className="font-bold text-white text-center md:text-5xl md:text-left text-xl my-5">
+            Développeur<br /><span className="text-sky-700 md:text-2xl xl:text-3xl font-bold">Web Front-End & Designer</span>
           </h1>
 
-          <p className="text-white mt-3 md:mt-0 text-center md:text-left whitespace-nowrap">
-            Développeur frontend & Designer <br /> avec 1 ans d'expérience, utilisant React.js, Vue.js <br />Photoshop, Figma... <br />
-            <span className="">Je transforme des idées en réalisations concrètes, <br />qu’il s’agisse d’un site web, d’une identité visuelle.</span>
+          <p className="text-white mt-3 md:mt-0 text-center md:text-left md:whitespace-nowrap">
+            Avec 1 ans d'expérience, utilisant React.js, Vue.js <br />Photoshop, Figma... <br />
+            <span className="">Je transforme des idées en réalisations concrètes, qu’il <br />s’agisse d’un Application web, d’une identité visuelle.</span>
           </p>
 
           <p className='mt-4 text-white text-center md:text-left'>Contactez-moi si vous avez besoin de mes services</p>

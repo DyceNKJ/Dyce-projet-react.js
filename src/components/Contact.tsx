@@ -139,13 +139,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-gray-900 py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 overflow-x-hidden"
+      className="bg-gray-800 py-10 sm:py-10 lg:py-14 px-4 sm:px-6 lg:px-8 overflow-x-hidden"
     >
       <div className="max-w-5xl mx-auto text-center fade-in">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
           Parlons de votre projet
         </h2>
-        <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto mb-12">
+        <p className="text-white text-center text-xl max-w-2xl mx-auto mb-12">
           Une idée, une collaboration, un besoin précis ? Écrivez-moi.
           Les bons projets commencent toujours par une conversation.
         </p>
@@ -154,7 +154,7 @@ const Contact = () => {
       <form
         ref={formRef}
         onSubmit={handleSubmit}
-        className="max-w-4xl mx-auto bg-gray-800 p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl fade-in space-y-6"
+        className="max-w-4xl mx-auto bg-gray-900/50 p-6 sm:p-8 lg:p-10 rounded-2xl shadow-xl shadow-black/30 fade-in space-y-6"
       >
         {/* CHAMPS VISIBLES */}
         <div>

@@ -21,16 +21,19 @@ const About = () => {
       }, [])
     
   return (
-<section id="profil" className="bg-gray-900 overflow-x-hidden">
+<section id="profil" className="bg-gray-900 overflow-y-hidden">
         <div className="max-w-4xl mx-auto md:px-[6%] sm:px-10 px-5 py-10 items-center">
-        <h1 className="text-white text-center font-bold text-3xl my-10 mt-5 mb-20">A propos de moi</h1>
+        <h1 className="text-white text-center font-bold text-3xl mt-5">A propos de moi</h1>
+        <p className='text-white text-center text-xl mb-20'>Votre partenaire pour une transformation digitale efficace.</p>
 
         <div className="flex flex-col md:flex-row items-start space-x-5 gap-y-9">
         <div className="from-left md:mr-4 mx-auto md:mx-6 flex-shrink-0">
-            <img src={moii} alt="" className="w-80 h-106 object-cover rounded-2xl hover:scale-105 hover:shadow-[0_0_4px_4px_rgba(19,145,230,0.3)] transition-all duration-700 opacity-65" />
+            <img src={moii} alt="" className="w-80 md:h-149 lg:h-125 object-cover rounded-2xl hover:scale-105 hover:shadow-[0_0_4px_4px_rgba(19,145,230,0.3)] transition-all duration-700 opacity-65" />
         </div>
 
-        <div className="from-down flex-col space-y-5 lg:mt-10 md:mt-0">
+        <div className="from-down flex-col space-y-5 md:mt-0">
+          <p className='text-white'>Je m'appelle <span className='text-sky-500 font-bold'>claudyce</span>, je conçois des solutions digitales solides et orientées résultats, au service de la croissance et de l’efficacité de votre business.</p>
+          <p className='text-white text-center font-bold text-3xl mt-5'>Mes sevices</p>
             <div className='flex bg-gray-800 text-white p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:-translate-y-3'>
             <i className="fas fa-code mt-7 text-2xl text-sky-700"></i>
             <p className="mb-2">
@@ -47,7 +50,7 @@ const About = () => {
             </p>
             </div>
             
-            <div className="flex bg-gray-800 shadow-md text-white p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:-translate-y-3">
+            <div className="flex bg-gray-800 mb-10 shadow-md text-white p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:-translate-y-3">
                 <i className="fas fa-layer-group mt-7 text-2xl text-sky-700"></i>
                 <p className="mb-2">
                 UI/UX Designer< br />
