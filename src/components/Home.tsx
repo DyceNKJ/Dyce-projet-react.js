@@ -31,9 +31,9 @@ const Home = () => {
             Développeur<br /><span className="text-sky-700 md:text-2xl xl:text-3xl font-bold">Web Front-End & Designer</span>
           </h1>
 
-          <p className="text-white mt-3 md:mt-0 text-center md:text-left md:whitespace-nowrap">
-            Avec 1 ans d'expérience, utilisant React.js, Vue.js <br />Photoshop, Figma... <br />
-            <span className="">Je transforme des idées en réalisations concrètes, qu’il <br />s’agisse d’un Application web, d’une identité visuelle.</span>
+          <p className="md:w-3/5 text-white mt-3 md:mt-0 text-center md:text-left">
+            Je crée des applications web modernes et immersives,
+            en transformant des idées en interfaces performantes et esthétiques avec React.js, Vue.js et TailwindCSS.
           </p>
 
           <p className='mt-4 text-white text-center md:text-left'>Contactez-moi si vous avez besoin de mes services</p>
@@ -65,7 +65,7 @@ const Home = () => {
           <img
             src={moi}
             alt=""
-            className="w-96 h-96 object-cover border-8 border-sky-700 hover:border-sky-600 shadow-xl hover:scale-105 hover:rotate-12 transition-transform duration-1000 opacity-65"
+            className="w-96 h-96 md:w-155 md:h-86 lg:w-216 lg:h-96 object-cover border-8 border-sky-700 hover:border-sky-600 shadow-xl hover:scale-105 hover:rotate-12 transition-transform duration-1000 opacity-65"
             style={{
               borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
             }}

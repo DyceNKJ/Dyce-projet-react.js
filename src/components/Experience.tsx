@@ -20,11 +20,14 @@ import Vercel from '../assets/techno/Vercel.png'
 import GitHub from '../assets/techno/GitHub.png'
 import Git from '../assets/techno/Git.png'
 import VS from '../assets/techno/VS.png'
+import Next from '../assets/techno/nextjs.webp'
 import Blender from '../assets/techno/Blender.png'
 import Firebase from '../assets/techno/Firebase.png'
 import NEKO from '../assets/companies/NEKO.png'
 import GBA from '../assets/companies/GBA.png'
 import GBAN from '../assets/companies/GBAN.png'
+import Canva from '../assets/techno/Can.png'
+import Cursor from '../assets/techno/Cursor.png'
 import microsoft from '../assets/techno/microsoft.webp'
 
         const Experience = () => {
@@ -72,21 +75,21 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <div className=' fade-in grid grid-cols-4 gap-6 justify-items-center lg:mb-9 lg:mr-10 xl:mr-10'>
             
                 <BootstrapTooltip title="95%" arrow> 
-                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-orange-600 cursor-pointer">
+                <div className="hidden w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-orange-600 cursor-pointer">
                 <img src={html} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">HTML</p>
                 </div>
                 </BootstrapTooltip>
 
                 <BootstrapTooltip title="70%" arrow>
-                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-sky-600 cursor-pointer">
+                <div className="hidden w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-sky-600 cursor-pointer">
                 <img src={css} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">CSS</p>
                 </div>
                 </BootstrapTooltip>
 
                 <BootstrapTooltip title="45%" arrow> 
-                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-yellow-300 cursor-pointer">
+                <div className="hidden w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-yellow-300 cursor-pointer">
                 <img src={js} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">JavaScript</p>
                 </div>
@@ -96,6 +99,13 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-sky-600 cursor-pointer">
                 <img src={react} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">React</p>
+                </div>
+                </BootstrapTooltip>
+
+                <BootstrapTooltip title="30%" arrow> 
+                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-black/90 cursor-pointer">
+                <img src={Next} alt="" className='w-11 h-11 rounded-full' />
+                <p className="absolute text-white mt-25 text-xs">Next</p>
                 </div>
                 </BootstrapTooltip>
 
@@ -110,6 +120,13 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-gray-700 cursor-pointer">
                 <img src={Figma} alt="" className='w-13 h-12 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">Figma</p>
+                </div>
+                </BootstrapTooltip>
+
+                <BootstrapTooltip title="85%" arrow> 
+                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-purple-700/40 cursor-pointer">
+                <img src={Canva} alt="" className='w-17 h-8 rounded-full' />
+                <p className="absolute text-white mt-25 text-xs">Canva</p>
                 </div>
                 </BootstrapTooltip>
 
@@ -187,6 +204,13 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-blue-300 cursor-pointer">
                 <img src={VS} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">VS Code</p>
+                </div>
+                </BootstrapTooltip>
+
+                <BootstrapTooltip title="80%" arrow>
+                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-gray-100 cursor-pointer">
+                <img src={Cursor} alt="" className='w-11 h-11 rounded-full' />
+                <p className="absolute text-white mt-25 text-xs">Cursor</p>
                 </div>
                 </BootstrapTooltip>
 
