@@ -7,7 +7,7 @@ import html from '../assets/techno/html.png'
 import css from '../assets/techno/css.png'
 import js from '../assets/techno/js.png'
 import react from '../assets/techno/react.png'
-import Vue from '../assets/techno/Vue.ico'
+import supabase from '../assets/techno/supabase.svg'
 import Figma from '../assets/techno/Figma.png'
 import tailwind from '../assets/techno/tailwind.png'
 import Photoshop from '../assets/techno/Photoshop.png'
@@ -102,20 +102,13 @@ import microsoft from '../assets/techno/microsoft.webp'
                 </div>
                 </BootstrapTooltip>
 
-                <BootstrapTooltip title="30%" arrow> 
+                <BootstrapTooltip title="40%" arrow> 
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-black/90 cursor-pointer">
                 <img src={Next} alt="" className='w-11 h-11 rounded-full' />
                 <p className="absolute text-white mt-25 text-xs">Next</p>
                 </div>
                 </BootstrapTooltip>
-
-                <BootstrapTooltip title="40%" arrow> 
-                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-green-600 cursor-pointer">
-                <img src={Vue} alt="" className='w-11 h-11 rounded-full' />
-                <p className="absolute text-white mt-25 text-xs">Vue.js</p>
-                </div>
-                </BootstrapTooltip>
-
+                
                 <BootstrapTooltip title="85%" arrow> 
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-gray-700 cursor-pointer">
                 <img src={Figma} alt="" className='w-13 h-12 rounded-full' />
@@ -133,7 +126,7 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <BootstrapTooltip title="90%" arrow>
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-sky-700 cursor-pointer">
                 <img src={tailwind} alt="" className='w-12 h-8 rounded-full' />
-                <p className="absolute text-white mt-25 text-xs">Tailwind CSS</p>
+                <p className="absolute text-white mt-25 text-xs">TailwindCSS</p>
                 </div>
                 </BootstrapTooltip>
 
@@ -154,14 +147,14 @@ import microsoft from '../assets/techno/microsoft.webp'
                 <BootstrapTooltip title="60%" arrow>
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-blue-950 cursor-pointer">
                 <img src={Pr} alt="" className='w-11 h-11 rounded-full' />
-                <p className="absolute text-white mt-25 text-xs">Premiere Pro</p>
+                <p className="absolute text-white mt-25 text-xs whitespace-nowrap">Premiere Pro</p>
                 </div>
                 </BootstrapTooltip>
 
                 <BootstrapTooltip title="85%" arrow>
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-pink-900 cursor-pointer">
                 <img src={Xd} alt="" className='w-11 h-11 rounded-full' />
-                <p className="absolute text-white mt-25 text-xs">Adobe XD</p>
+                <p className="absolute text-white mt-25 text-xs whitespace-nowrap">Adobe XD</p>
                 </div>
                 </BootstrapTooltip>
                 
@@ -221,6 +214,13 @@ import microsoft from '../assets/techno/microsoft.webp'
                 </div>
                 </BootstrapTooltip>
 
+                <BootstrapTooltip title="70%" arrow> 
+                <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-green-600 cursor-pointer">
+                <img src={supabase} alt="" className='w-11 h-11 rounded-full' />
+                <p className="absolute text-white mt-25 text-xs">Supabase</p>
+                </div>
+                </BootstrapTooltip>
+
                 <BootstrapTooltip title="65%" arrow>
                 <div className="w-16 h-16 rounded-full border-2 border-sky-700 items-center justify-center flex mb-4 hover:bg-orange-900 cursor-pointer">
                 <img src={Firebase} alt="" className='w-10 h-10 rounded-full' />
@@ -255,7 +255,7 @@ import microsoft from '../assets/techno/microsoft.webp'
                     </div>
                 </div>
                 
-                    <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:scale-96'>
+                    <div className='flex bg-gray-900 text-sky-700 p-3 font-bold rounded-xl gap-3 hover:shadow-[0_4px_8px_rgba(19,145,230,0.3)] transition duration-500 ease-in-out hover:scale-105'>
                     <img src={GBA} alt="" className='w-10 h-11 rounded-md'/>
                     <div>
                         <h5 className='leading-none'>Employé - Opérateur de Saisie & Infographe <br /> <span className='text-xs'>GROUPE BEN'K AUBINSSON</span></h5>

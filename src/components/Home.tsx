@@ -27,25 +27,28 @@ const Home = () => {
 
         {/* TEXTE */}
         <div className="from-left flex flex-col">
-          <h1 className="font-bold text-white text-center md:text-5xl md:text-left text-xl my-5">
-            Développeur<br /><span className="text-sky-700 md:text-2xl xl:text-3xl font-bold">Web Front-End & Designer</span>
+          <div className='font-bold text-center md:text-left mt-5'>
+            <h1 className="text-white md:text-[65px] text-4xl">
+            Développeur
           </h1>
+            <p className="text-sky-700 md:text-2xl xl:text-3xl font-bold">Web Front-End & Designer</p>
+          </div>
 
-          <p className="md:w-3/5 text-white mt-3 md:mt-0 text-center md:text-left">
+          <p className="md:w-4/5 text-white mt-3 md:mt-5 text-center md:text-left">
             Je crée des applications web modernes et immersives,
-            en transformant des idées en interfaces performantes et esthétiques avec React.js, Vue.js et TailwindCSS.
+            en transformant des idées en interfaces performantes et adaptées selon vos besoins.
           </p>
 
           <p className='mt-4 text-white text-center md:text-left'>Contactez-moi si vous avez besoin de mes services</p>
 
-          <div className="flex flex-wrap gap-4 mx-auto md:mx-0">
+          <div className="flex flex-wrap gap-4 mx-auto justify-center md:mx-0 md:justify-start">
 
           <div className="flex gap-2 rounded-sm md:w-fit bg-sky-700 hover:bg-sky-600 p-3 mt-2 hover:scale-110 transition-all duration-700 cursor-pointer text-sm lg:text-md">
           <i className="fa-solid fa-download mt-1 text-white"></i>
           <a href='/cv-claudyce-francais.pdf'
           download="cv-claudyce-francais.pdf"
           className="text-white font-bold">
-          Télécharger mon CV
+          En savoir plus sur moi
           </a>
           </div>
 
@@ -65,7 +68,7 @@ const Home = () => {
           <img
             src={moi}
             alt=""
-            className="w-96 h-96 md:w-155 md:h-86 lg:w-216 lg:h-96 object-cover border-8 border-sky-700 hover:border-sky-600 shadow-xl hover:scale-105 hover:rotate-12 transition-transform duration-1000 opacity-65"
+            className="w-96 h-96 md:w-155 md:h-86 lg:w-216 lg:h-96 object-cover border-8 border-sky-700 hover:border-sky-600 cursor-pointer shadow-xl hover:scale-105 hover:rotate-12 transition-transform duration-1000 opacity-65"
             style={{
               borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
             }}

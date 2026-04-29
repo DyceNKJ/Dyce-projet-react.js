@@ -77,26 +77,26 @@ const Projet = () => {
                 </div>
               </div>
               <p className="text-white text-sm whitespace-normal mt-2 lg:w-4/5 xl:w-4/5">
-                Site web développé avec Vue.js 3 & TypeScript avec filtrage,
+                Application web développé avec Vue.js 3 & TypeScript avec filtrage,
                 pagination, formulaire EmailJS (historique des contacts
                 enregistré pour relances), effets de parallaxe, et backend
                 Firebase (Firestore) avec interface admin sécurisée.
               </p>
 
               <div className="flex flex-wrap gap-3 text-left text-sm">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Vue.js
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   TypeScript
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
-                  Tailwind CSS
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                  TailwindCSS
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Firebase
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Google Analytics
                 </p>
               </div>
@@ -156,13 +156,13 @@ const Projet = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 text-left text-sm">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   HTML
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
-                  Tailwind CSS
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                  TailwindCSS
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   JavaScript
                 </p>
               </div>
@@ -205,13 +205,13 @@ const Projet = () => {
               <div className="flex space-x-4">
                 <div className="bg-gray-950 p-3 h-13 rounded-lg mt-3 hover:rotate-10 hover:scale-105 transition-all duration-300">
                   {" "}
-                  <LanguageIcon style={{ color: "white" }} />
+                  <DesktopWindowsIcon style={{ color: "white" }} />
                 </div>
                 <div className="flex flex-col">
                   <h3 className="mt-2 font-bold text-white md:text-2xl">
                     Dyce PORTFOLIO
                   </h3>
-                  <p className="text-sky-600 font-bold">Site web</p>
+                  <p className="text-sky-600 font-bold">App web</p>
                 </div>
               </div>
               <p className="text-white text-sm whitespace-normal mt-2 lg:w-4/5 xl:w-4/5">
@@ -221,13 +221,13 @@ const Projet = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 text-left text-sm">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   React.js + Vite
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   TypeScript
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   TailwindCSS
                 </p>
               </div>
@@ -286,13 +286,13 @@ const Projet = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 text-left text-sm mb-5">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   HTML
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
-                  Tailwind CSS
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                  TailwindCSS
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   JavaScript
                 </p>
               </div>
@@ -340,13 +340,13 @@ const Projet = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 text-left text-sm">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   CapCut
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Premiere Pro
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   YouTube
                 </p>
               </div>
@@ -397,19 +397,19 @@ const Projet = () => {
               </p>
 
               <div className="flex flex-wrap gap-2 text-left text-sm">
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   React.js + Vite
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   TypeScript
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
-                  Tailwind CSS
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                  TailwindCSS
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Firebase
                 </p>
-                <p className=" text-black bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
+                <p className=" text-white bg-sky-700 text-center p-1 mt-2 gap-2 w-fit h-full rounded-lg">
                   Framer Motion
                 </p>
               </div>
